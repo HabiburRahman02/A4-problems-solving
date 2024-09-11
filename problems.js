@@ -1,4 +1,3 @@
-// problem - 01
 function calculateTax(income, expenses) {
     if (typeof income !== 'number' ||
         typeof expenses !== "number") {
@@ -14,14 +13,8 @@ function calculateTax(income, expenses) {
     return tax
 }
 
-// const result = calculateTax(6000, -1500);
-// console.log(result);
 
 
-
-
-
-// problem - 02
 function sendNotification(email) {
     if (typeof email !== 'string') {
         return "Invalid Email"
@@ -35,15 +28,8 @@ function sendNotification(email) {
     return `${firstIndex} sent you an email from ${lastIndex}`
 }
 
-// const result = sendNotification('256');
-// console.log(result);
 
 
-
-
-
-
-// 3
 function checkDigitsInName(name) {
     if (typeof name !== 'string') {
         return 'Invalid Input '
@@ -57,15 +43,8 @@ function checkDigitsInName(name) {
     return existNumber;
 }
 
-// const result = checkDigitsInName('!@#');
-// console.log(result);
 
 
-
-
-
-
-// 4
 function calculateFinalScore(obj) {
 
     if (typeof obj !== 'object' ||
@@ -98,14 +77,8 @@ function calculateFinalScore(obj) {
     }
 }
 
-// const info = { name: "Rajib", testScore: 45, schoolGrade: 25, isFFamily: false }
-// const result = calculateFinalScore(info);
-// console.log(result)
 
 
-
-
-// 05
 function waitingTime(waitingTimes, serialNumber) {
     if (Array.isArray(waitingTimes) === false ||
         typeof serialNumber !== 'number'
@@ -124,5 +97,3 @@ function waitingTime(waitingTimes, serialNumber) {
     return serialTime;
 }
 
-const result = waitingTime([7, 8, 3, 4, 5], "9");
-console.log(result);
